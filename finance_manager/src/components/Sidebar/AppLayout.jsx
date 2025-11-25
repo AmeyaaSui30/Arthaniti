@@ -29,17 +29,16 @@ const AppLayout = ({ children }) => {
   }, []);
 
   const menuItems = [
-    { icon: <Home size={20} />, label: 'Dashboard', link: '/Dashboard' },
-    { icon: <BookOpen size={20} />, label: 'Income', link: '/Income' },
+    { icon: <Home size={20} />, label: 'Dashboard', link: '/dashboard' },
+    { icon: <BookOpen size={20} />, label: 'Income', link: '/income' },
     { icon: <DollarSign size={20} />, label: 'Spendings', link: '/spendings' },
     { icon: <PiggyBank size={20} />, label: 'Savings', link: '/savings' },
-    { icon: <TrendingUp size={20} />, label: 'Investment', link: '/Investment' },
-    { icon: <PieChart size={20} />, label: 'Budget', link: '/BudgetPlanningTools' },
-    { icon: <FileText size={20} />, label: 'Report', link: '/Report' },
-    { icon: <Wallet size={20} />, label: 'Loans', link: '/Loan_page' },
-    { icon: <MessageSquare size={20} />, label: 'Chatbot', link: '/Chatbot' },
-    { icon: <Percent size={20} />, label: 'Tax', link: '/Taxpage' },
-    
+    { icon: <TrendingUp size={20} />, label: 'Investment', link: '/investment' },
+    { icon: <PieChart size={20} />, label: 'budgetplanningtools', link: '/budgetplanningtools' },
+    { icon: <FileText size={20} />, label: 'Report', link: '/report' },
+    { icon: <Wallet size={20} />, label: 'Loans', link: '/loan_page' },
+    { icon: <MessageSquare size={20} />, label: 'Chatbot', link: '/chatbot' },
+    { icon: <Percent size={20} />, label: 'Tax', link: '/taxpage' },
   ];
 
   return (

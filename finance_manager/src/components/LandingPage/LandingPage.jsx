@@ -35,10 +35,10 @@ const LandingPage = () => {
             <a href="#" className="text-gray-700 hover:text-primary transition-colors">Resources</a>
           </nav>
           <div className="flex gap-3">
-            <Link to="/Signup" className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-accent transition-colors">
+            <Link to="/signup" className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-accent transition-colors">
               Sign Up
             </Link>
-            <Link to="/Login" className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-accent transition-colors">
+            <Link to="/login" className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-accent transition-colors">
               Login
             </Link>
           </div>
@@ -49,7 +49,7 @@ const LandingPage = () => {
         {/* Register Banner */}
         <div className="bg-gray-100 rounded-lg p-4 md:p-6 my-8 flex justify-between items-center">
           <span className="text-lg font-semibold text-primary">Register Now</span>
-          <Link to="/Signup" className="text-2xl">✅</Link>
+          <Link to="/signup" className="text-2xl">✅</Link>
         </div>
 
         {/* Hero Section */}

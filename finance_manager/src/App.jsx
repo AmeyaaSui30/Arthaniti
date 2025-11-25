@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./components/Login/Login.jsx";
 import Signup from "./components/signup/signup.jsx";    
 import Home from "./components/home.jsx";
@@ -17,31 +17,33 @@ import Loan_page from "./components/loans/Loan_page.jsx";
 import Chatbot from "./components/gimini/Chatbot.jsx";
 import TaxPage from "./components/tax/TaxPage.jsx";
 import BudgetPlanningTools from "./components/buget/BudgetPlanningTools.jsx";
-
+import AIShowcase from "./components/AIShowcase.jsx";
 const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Login" element={<Login />} />
-                <Route path="/signup" element={<Signup />} />
-                <Route path="/Details" element={<Detailpg />} />
-                <Route path="/DetailsTwo" element={<DetailpgTwo />} />
-                <Route path="/Dashboard" element={<Dashboard/>} />
-                <Route path="/Detailspf" element={<Detailspf />} />
-                <Route path="/Investment" element={<Investment />} />
-                <Route path="/Income" element={<Income />} />
-                <Route path="/Report" element={<Report />} />
-                <Route path="/LandingPage" element={<LandingPage/>} /> 
-                <Route path="/savings" element={<Saving/>}  />
-                <Route path="/spendings" element={<Spending/>} />
-                <Route path="/Loan_page" element={<Loan_page/>} />
-                <Route path="/Chatbot" element={<Chatbot />} />
-                <Route path="/Taxpage" element={<TaxPage />} />
-                <Route path="/BudgetPlanningTools" element={<BudgetPlanningTools />} />
-            </Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<Signup />} />
+                    <Route path="/details" element={<Detailpg />} />
+                    <Route path="/detailstwo" element={<DetailpgTwo />} />
+                    <Route path="/dashboard" element={<Dashboard/>} />
+                    <Route path="/detailspf" element={<Detailspf />} />
+                    <Route path="/investment" element={<Investment />} />
+                    <Route path="/income" element={<Income />} />
+                    <Route path="/report" element={<Report />} />
+                    <Route path="/landingpage" element={<LandingPage/>} /> 
+                    <Route path="/savings" element={<Saving/>}  />
+                    <Route path="/spendings" element={<Spending/>} />
+                    <Route path="/loan_page" element={<Loan_page/>} />
+                    <Route path="/chatbot" element={<Chatbot />} />
+                    <Route path="/taxpage" element={<TaxPage />} />
+                    <Route path="/budgetplanningtools" element={<BudgetPlanningTools />} />
+                    <Route path="/aishowcase" element={<AIShowcase />} />
+                </Routes>
         </BrowserRouter>
     );
 };
 
 export default App;
+
